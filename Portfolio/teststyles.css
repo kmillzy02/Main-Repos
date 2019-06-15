@@ -1,0 +1,14 @@
+/*
+*katelyn Miller
+*created 6/13/19
+*last modified:
+*/
+
+body {background-color: azure;}
+
+header, footer {background-color: lightslategrey;
+                color:white;}
+
+.border {border: thick solid blueviolet;}
+
+#past {border: thin solid bisque;}

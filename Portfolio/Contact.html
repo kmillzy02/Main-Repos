@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+    Katelyn Miller
+    created 6/12/19
+    most recent revision:
+-->
+<html lang="en">
+    <head> 
+        <title> Contact Me </title>
+        <link href="Styles/Main.css" rel="stylesheet" type="text/css" />
+        <style>
+                
+                </style>
+    </head>
+
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+
+        <nav>
+                <p><a href="Index.html"> Home </a></p>  
+                <p><a href="Projects.html">Projects</a></p>  
+                <p><a href="Contact.html">Contact Me</a></p>
+                <p><a href="Testimonials.html">Testimonials</a></p>
+                <div class="clear-float"></div>
+    
+        </nav>
+        <h2>Information Request</h2>
+    <form action="submit.html" method="post">
+        <label for="FirstName"> First Name:</label>
+        <input type="text" name="FirstName"/> <br />
+        
+        <label for="LastName"> Last Name:</label>
+        <input type="text" name="LastName"/><br />
+
+        <label for="PhoneNumber"> Phone Number:</label>
+        <input type="text" name="PhoneNumber"/><br />
+
+        <br /><label for="contact">Best time to call:</label><br />
+        <select id="contact" name="cantact">
+            <option value="default" selected>--Select One--</option>
+            <option value="morning"> Morning (8AM to 12PM Eastern)</option>
+            <option value="afternoon"> Afternoon (12PM to 5PM Eastern)</option>
+            <option value="Evening"> Evening (5PM to 8PM Eastern)</option>
+        </select><br />
+
+        <feildset>
+        <br /><legend>I am interested in (check all that apply) </legend>
+            <input type="checkbox" name="FrontEnd" value="interest" value="frontend">
+            <label for="FrontEnd">Front-End WebDevelopment</label> <br />
+            <input type="checkbox" name="BackEnd" value="interest"value="backend">
+            <label for="BackEnd">Back-End Web Development</label> <br />
+            <input type="checkbox" name="Database" value="interest" value="database">
+            <label for="Database">Database Design</label> <br />
+        
+    </feildset>
+    <feildset>
+            <br /><legend>I have filled in the client questionnaire form <br />
+            <input type="radio" id="choice1" name="questionaire" value="yes">
+            <label for="choice1">Yes</label><br />
+            <input type="radio" id="choice2"name="questionaire" value="no">
+            <label for="choice2">No</label><br />
+    </feildset>  
+
+        <br /><label for="info">Additional Information</label><br />
+            <textarea id="info" name="info"></textarea>
+       
+
+        <br /><input type="submit" />
+        <hr />
+    </form>
+
+
+
+
+
+<footer>
+    
+</footer>
+
+</body>
+</html>
